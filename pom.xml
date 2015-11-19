@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cn.saymagic.weixin.server</groupId>
-	<artifactId>wx_server</artifactId>
+	<artifactId>weixin_server</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>wx_server</name>
+	<name>weixin_server</name>
 	<url>http://blog.saymagic.cn</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -64,7 +64,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.1.1</version>
 				<configuration>
-					<warName>wx_server</warName>
+					<warName>weixin_server</warName>
 				</configuration>
 			</plugin>
 			<plugin>
